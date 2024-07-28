@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./styles/styles.css">    
+</head>
+<body>
+    <div class="container">
+        <div class="input-area">
+            <h1>Digite seu texto para decodificação. </h1>
+            <textarea id="input-text" placeholder="Digite seu texto aqui..."></textarea>
+            <div class="buttons">
+                <button id="encrypt-button">Criptografar</button>
+                <button id="decrypt-button">Descriptografar</button>
+                <button id="reset-button">Resetar</button>
+            </div>
+            <p>Utilizar apenas letras minúsculas e sem acentos!</p>
+        </div>
+        <div class="output-area" id="output-area">
+            <p class="default-message">Sem mensagens encontradas</p>
+            <p class="output-message">Digite seu texto para decodificação</p>
+        </div>
+    </div>
+</body>
+<script src="./js/app.js"></script>
+</html>
